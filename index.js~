@@ -1,0 +1,9 @@
+const express= require("express");
+app = express();
+app.get("/"(req,res)=>{
+	res.send("Yes!! we are there!");
+});
+app.listen(3000,()=>{
+	console.log("App listening on 3000");
+})
+console.log("Heloo wordl");

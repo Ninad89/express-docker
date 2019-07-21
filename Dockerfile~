@@ -1,0 +1,6 @@
+FROM node:10
+COPY index.js .
+COPY node_module .
+CMD node index.js
+EXPOSE 3000
+
